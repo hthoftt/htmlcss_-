@@ -6,6 +6,20 @@
     <title>六角學院線上課程</title>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="index.css" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-98BLGP7D74"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-98BLGP7D74");
+    </script>
   </head>
   <body>
     <div id="header_bar">
@@ -123,10 +137,14 @@
           <div id="form_input">
             <label class="form_label" for="person">姓名</label>
             <input class="input" type="text" placeholder="六角講師" />
-            <label class="form_label"  for="phone">電話</label>
+            <label class="form_label" for="phone">電話</label>
             <input class="input" type="text" placeholder="0987654321" />
-            <label class="form_label"  for="mail">姓名</label>
-            <input class="input" type="text" placeholder="exmple@hexschool.com" />
+            <label class="form_label" for="mail">姓名</label>
+            <input
+              class="input"
+              type="text"
+              placeholder="exmple@hexschool.com"
+            />
           </div>
           <div id="form_textarea">
             <label class="form_label" for="text">備註</label>
