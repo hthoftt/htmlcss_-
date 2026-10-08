@@ -4,8 +4,7 @@
 
 [線上 Demo](https://hthoftt.github.io/htmlcss_-/)
 
-<!-- 補一張截圖:把圖片放進 repo,再取消下一行註解 -->
-<!-- ![畫面截圖](./screenshot.png) -->
+![課程介紹頁](./docs/screenshot.jpg)
 
 ## 功能
 - 使用 reset.css 統一預設樣式
